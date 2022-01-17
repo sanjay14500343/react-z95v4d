@@ -47,3 +47,13 @@ body {
 #icon {
   color: white;
 }
+.todo {
+  color: teal;
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+  color: goldenrod;
+}
